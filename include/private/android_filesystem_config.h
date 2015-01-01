@@ -81,6 +81,8 @@
 
 #define AID_AUDIT         1049  /* audit daemon */
 
+#define AID_SMARTCARD     1050  /* smart card subsystem */
+
 #define AID_SHELL         2000  /* adb and debug shell user */
 #define AID_CACHE         2001  /* cache access */
 #define AID_DIAG          2002  /* access to diagnostic resources */
@@ -147,6 +149,7 @@ static const struct android_id_info android_ids[] = {
     { "sdcard_rw",     AID_SDCARD_RW, },
     { "vpn",           AID_VPN, },
     { "keystore",      AID_KEYSTORE, },
+    { "smartcard",     AID_SMARTCARD, },
     { "usb",           AID_USB, },
     { "drm",           AID_DRM, },
     { "mdnsr",         AID_MDNSR, },
